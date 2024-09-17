@@ -1,0 +1,92 @@
+
+body {
+    padding-top: 56px; 
+}
+
+
+body {
+    background-image: url('https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/8959644/og_image/optimized/cover-0220_01_What-Is-Bootstrap_cover-8e5c58b8e1b95b4f4955011db48f763e.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+header {
+    background-color: rgba(52, 58, 64, 0.8);
+    color: #f8f9f8;
+    padding: 5rem 0; 
+}
+
+
+.card {
+    margin-bottom: 1.5rem;
+}
+
+
+footer {
+    background-color: #343a40;
+    color: #e20000;
+    padding: 1.5rem 0; 
+    text-align: center;
+}
+
+
+.navbar {
+    background-color: #202224; 
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #000000; 
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff; 
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h2 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+
+@media (max-width: 767.98px) {
+    .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    
+    header {
+        padding: 3rem 0; 
+    }
+    
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+
+.navbar-toggler {
+    border-color: #ffffff; 
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICAgIDxsaW5lIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZ2h0PSIxNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIHRyb3VnaC1yb3VuZCIvPjwvc3ZnPg=='); /* Ícone de alternância */
+}
